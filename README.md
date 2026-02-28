@@ -19,7 +19,7 @@ echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> 
 source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
-##Installing zsh autosuggestions from git
+## Installing zsh autosuggestions from git
 
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
