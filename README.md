@@ -1,4 +1,6 @@
-Installing zsh and oh-my-zsh
+# zsh
+
+## Installing zsh and oh-my-zsh
 
 ```bash
 sudo apt update
@@ -9,7 +11,7 @@ sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-Installing zsh syntax highlighting from git
+## Installing zsh syntax highlighting from git
 
 ```bash
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
@@ -17,7 +19,7 @@ echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> 
 source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
-Installing zsh autosuggestions from git
+##Installing zsh autosuggestions from git
 
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
